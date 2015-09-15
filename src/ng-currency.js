@@ -13,7 +13,7 @@ angular.module('ng-currency', [])
             scope: {
                 min: '=min',
                 max: '=max',
-                currencySymbol: '@',
+                currencySymbol: '=', // imagine we load the curreny symbol async or need to chane it during runtime!
                 ngRequired: '=ngRequired',
                 fraction: '=fraction'
             },
